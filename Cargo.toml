@@ -1,0 +1,44 @@
+[package]
+name = "materials"
+version = "0.1.0"
+authors = ["Chris P <chrisp1877@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bio = "0.32.0"
+nom="*"
+dasap = "*"
+buf_redux="*"
+flate2 = "1.0.16"
+csv="*"
+svg="*"
+puruspe="*"
+nalgebra="*"
+num="*"
+matrixmultiply = "0.2.3"
+statrs = "0.13.0"
+rv = "0.10.0"
+special="*"
+markov="*"
+plotters="*"
+uom = "0.29.0"
+probability="*"
+plotlib="*"
+needletail = "0.4.0"
+bio-types = "0.7.0"
+petgraph="*"
+templfile="*"
+#kiss3d;
+#rug="*"
+#model="*"
+
+[dev-dependencies]
+approx="*"
+
+
+[dependencies.peroxide]
+version = "0.25"
+default-features = false
+features = ["plot", "dataframe"]
